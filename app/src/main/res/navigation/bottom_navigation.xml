@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/homefragment_containerFragment">
+
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="com.example.myappmata.OffersFragment"
+        android:label="fragment_offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/wishListFragment"
+        android:name="com.example.myappmata.ui.wishlist.WishListFragment"
+        android:label="fragment_wish_list"
+        tools:layout="@layout/fragment_wish_list" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.myappmata.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/holderFragment"
+        android:name="com.example.myappmata.HolderFragment"
+        android:label="fragment_holder"
+        tools:layout="@layout/fragment_holder" />
+    <fragment
+        android:id="@+id/homefragment_containerFragment"
+        android:name="com.example.myappmata.homefragment_containerFragment"
+        android:label="fragment_homecontainer"
+        tools:layout="@layout/fragment_homecontainer" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.myappmata.searchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+
+</navigation>
